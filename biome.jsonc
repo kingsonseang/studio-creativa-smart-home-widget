@@ -1,0 +1,38 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "extends": [
+    "ultracite"
+  ],
+  "files": {
+    "includes": [
+      "./src/**"
+    ]
+  },
+  "linter": {
+    "includes": [
+      "./src/**"
+    ],
+    "rules": {
+      "nursery": {
+        "useSortedClasses": {
+          "level": "error",
+          "fix": "safe",
+          "options": {
+            "attributes": [
+              "className"
+            ],
+            "functions": [
+              "cn"
+            ]
+          }
+        },
+        "noUnknownAtRule": "warn"
+      }
+    }
+  },
+  "css": {
+    "linter": {
+      "enabled": true
+    }
+  }
+}
