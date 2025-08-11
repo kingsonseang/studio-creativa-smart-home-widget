@@ -9,8 +9,8 @@ pre-push:
 pre-commit:
   parallel: true
   jobs:
-    - name: lint
-      run: bun lint
-
     - name: format
       run: bun format
+
+    - name: lint
+      run: bun lint

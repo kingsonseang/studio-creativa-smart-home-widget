@@ -58,7 +58,7 @@ export const campton = localFont({
       style: 'normal',
     },
     {
-      path: './campton/CamptonSemiBoldBoldItalic.otf',
+      path: './campton/CamptonSemiBoldItalic.otf',
       weight: '600',
       style: 'italic',
     },
@@ -94,4 +94,5 @@ export const campton = localFont({
     },
   ],
   variable: '--local-font-campton',
+  display: 'swap',
 });

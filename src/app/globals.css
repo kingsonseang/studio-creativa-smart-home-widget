@@ -1,3 +1,4 @@
+/* biome-ignore-all lint/nursery/noUnknownAtRule: ignore tailwinf rules */
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -43,11 +44,14 @@
 }
 
 :root {
-    --radius: 0.625rem;
+    --radius: 0.8rem;
     --background: oklch(1 0 0);
-    --foreground: oklch(0.13 0.028 261.692);
-    --card: oklch(1 0 0);
-    --card-foreground: oklch(0.13 0.028 261.692);
+    /*--foreground: oklch(0.13 0.028 261.692);*/
+    --foreground: rgb(85, 85, 85);
+    /*--card: oklch(1 0 0);*/
+    --card: rgb(249, 249, 249);
+    /*--card-foreground: oklch(0.13 0.028 261.692);*/
+    --card-foreground: rgb(154, 154, 154);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.13 0.028 261.692);
     --primary: oklch(0.21 0.034 264.665);
@@ -93,7 +97,8 @@
     --accent: oklch(0.278 0.033 256.848);
     --accent-foreground: oklch(0.985 0.002 247.839);
     --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
+    /*--border: oklch(1 0 0 / 10%);*/
+    --border: rgb(238, 238, 238);
     --input: oklch(1 0 0 / 15%);
     --ring: oklch(0.551 0.027 264.364);
     --chart-1: oklch(0.488 0.243 264.376);
